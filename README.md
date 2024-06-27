@@ -1,4 +1,10 @@
-# Go-Blis
+# Go-Lapack
+
+Linear algebra package in golang using native bindings to various architecture specific linear algebra libraries.
+
+The difference between this repository [gonum](https://github.com/gonum/gonum) is gonum is a golang native implementation while this repo uses native bindings to the blas or blis.
+
+## go-blis
 
 Go-Blis is a Go wrapper for the [BLIS](https://github.com/flame/blis) library. BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries. The framework was designed to isolate essential kernels of computation that, when optimized, immediately enable optimized implementations of most of its commonly used and computationally intensive operations.
 

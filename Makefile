@@ -1,7 +1,7 @@
 # Include the .env file and export the variables
 ifneq (,$(wildcard .env))
-    include .env
-    export $(shell sed 's/=.*//' .env)
+	include .env
+	export $(shell sed 's/=.*//' .env)
 endif
 
 test:
