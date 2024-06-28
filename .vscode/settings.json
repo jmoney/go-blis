@@ -1,14 +1,13 @@
 {
     "go.buildFlags": ["-ldflags", "-extldflags -w"],
     "go.testFlags": ["-v", "-count=1", "-ldflags", "-extldflags -w"],
-    "go.testEnvFile": ".env",
     "go.lintOnSave": "file",
     "go.testEnvVars": {
         "CGO_CFLAGS":"-I/opt/homebrew/Cellar/blis/1.0/include",
         "CGO_LDFLAGS":"-L/opt/homebrew/Cellar/blis/1.0/lib",
     },
     "go.toolsEnvVars": {
-        "CGO_CFLAGS": "-I/opt/homebrew/Cellar/blis/1.0/include",
+        "CGO_CFLAGS":"-I/opt/homebrew/Cellar/blis/1.0/include",
         "CGO_LDFLAGS":"-L/opt/homebrew/Cellar/blis/1.0/lib",
     },
 }

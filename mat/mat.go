@@ -1,6 +1,6 @@
 package mat
 
-type TransT int
+type TransT uint32
 
 const (
 	Transpose TransT = iota
@@ -11,7 +11,7 @@ type DimT int64
 type IncT int64
 
 type General struct {
-	Rows, Cols             int
-	RowsStride, ColsStride int
+	Rows, Cols             DimT
+	RowsStride, ColsStride IncT
 	Data                   []float64
 }
